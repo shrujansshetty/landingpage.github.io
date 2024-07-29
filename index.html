@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#internship">Internships</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="menu">
+                <div class="menu-icon" onclick="toggleMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="side-menu" class="side-menu">
+        <a href="index.html#internship">Internships</a>
+        <a href="faqs.html">FAQs</a>
+        <a href="signin.html">Sign In</a>
+        <a href="signup.html">Sign Up</a>
+    </div>
+
+    <main>
+        <div class="welcome-container">
+            <h1 class="welcome-message">Welcome...</h1>
+            <input type="text" class="search-bar" placeholder="Search for Internships">
+        </div>
+        <div class="info">
+            <p>
+                Providing World Class
+                E-Learning Experience with
+                Real-world Internships
+            </p>
+        </div>
+    </main>
+
+    <section id="internship">
+        <h2>Internships</h2>
+        <div id="cardcont">
+            <div class="card">
+                <h2>Web Dev internship</h2>
+                <ol>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>Javascript</li>
+                    <li>React</li>
+                </ol>
+                <button class="applybtn">Apply</button>
+            </div>
+
+            <div class="card">
+                <h2>App Dev internship</h2>
+                <ol>
+                    <li>Javascript</li>
+                    <li>React Native</li>
+                    <li>Flutter</li>
+                    <li>PHP</li>
+                </ol>
+                <button class="applybtn">Apply</button>
+            </div>
+
+            <div class="card">
+                <h2>DSA internship</h2>
+                <ol>
+                    <li>C Programming</li>
+                    <li>Python</li>
+                    <li>Data Structures</li>
+                    <li>Algorithms</li>
+                </ol>
+                <button class="applybtn">Apply</button>
+            </div>
+
+            <div class="card">
+                <h2>Cyber Security internship</h2>
+                <ol>
+                    <li>Basic Concepts</li>
+                    <li>Malware attacks</li>
+                    <li>Kali Linux</li>
+                    <li>Security</li>
+                </ol>
+                <button class="applybtn">Apply</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing high-quality internships that help students gain real-world experience.</p>
+        <p>Our mission is to bridge the gap between education and industry by offering practical training opportunities.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@internships.com</p>
+        <p>Phone: +1 (555) 123-4567</p>
+        <p>Address: 123 Internship Lane, Karnataka,India</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
